@@ -4,7 +4,7 @@ pragma solidity  ^0.8.15;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract AmirToken is ERC20 {
-    uint public x;
+    uint public y;
     constructor() ERC20("AmirToken", "AT") {}
     function mintAT(uint amount)public {
         _mint(msg.sender,amount);
